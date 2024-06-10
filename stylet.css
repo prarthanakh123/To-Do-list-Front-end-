@@ -1,0 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Roboto Mono", monospace;
+   box-sizing: border-box; 
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(41, 75, 127);
+    padding :10px;
+
+}
+.todo-app{
+    width: 600px;
+   height:400px;
+   background-color: rgba(241, 240, 238,0.25);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 30px;
+    border: solid  rgba(241, 240, 238,0.25);
+    border-width: 2px;
+    
+}
+.todo-app h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color:rgb(247, 248, 249) ;
+}
+.todo-app img{
+    width: 40px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    list-style: none;
+    background-color: rgba(241, 240, 238,0.7);
+}
+input{
+    background: transparent;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color: #ecbb90;
+    color: white;
+
+}
+.content a{
+    color: #ee964b;
+
+}
+.content a:hover{
+    text-decoration: none;
+    font-size: 20px;
+     
+}
+.links{
+    padding: 6px;
+   
+}
+.todo-app:hover{
+    height: 430px;
+    width: 630px;
+    box-shadow: 2px 2px 25px #ee964b;
+}
+.row:hover{
+   background-color: white;
+   cursor: pointer;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 6%;
+}
